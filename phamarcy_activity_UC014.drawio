@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2020-10-03T15:00:24.645Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.7" etag="rMdOeqAPnwbOdE-B5m2o" type="github"><diagram id="HGzuFnrPd-ahrLwf7oKc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-03T15:09:06.260Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Ih_E1762bFgma_Kf-TQC" version="13.7.7" type="github">
+  <diagram id="HGzuFnrPd-ahrLwf7oKc" name="Page-1">
+    <mxGraphModel dx="1422" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-1" value="Actor" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="200" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-6" value="Nhân viên nhập thuốc vào hệ thống" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-1">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-11" value="Nhân viên chọn &quot;Thanh toán&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-1">
+          <mxGeometry x="40" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nor7MJ_qh7ZYDfQG6Kgf-1" source="nor7MJ_qh7ZYDfQG6Kgf-30" target="nor7MJ_qh7ZYDfQG6Kgf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-30" value="Nhân viên xác nhận" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-1">
+          <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-2" value="Hệ thống" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="330" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="nor7MJ_qh7ZYDfQG6Kgf-3" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-5" value="Hệ thống hiển thị màn hình &quot;Nhập thuốc vào hóa đơn&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2" source="nor7MJ_qh7ZYDfQG6Kgf-9" target="nor7MJ_qh7ZYDfQG6Kgf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-9" value="Hệ thống kiểm tra thuốc tồn tại" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-10" value="Hệ thống thêm thuốc vào hóa đơn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="40" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2" source="nor7MJ_qh7ZYDfQG6Kgf-14" target="nor7MJ_qh7ZYDfQG6Kgf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-14" value="Hệ thống hiển thị màn hình &quot;Thanh toán&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="85" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2" source="nor7MJ_qh7ZYDfQG6Kgf-22" target="nor7MJ_qh7ZYDfQG6Kgf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-28" value="Thuốc tồn tại" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nor7MJ_qh7ZYDfQG6Kgf-24">
+          <mxGeometry x="-0.6889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2" source="nor7MJ_qh7ZYDfQG6Kgf-22" target="nor7MJ_qh7ZYDfQG6Kgf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-29" value="Thuốc không&lt;br&gt;tồn tại" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nor7MJ_qh7ZYDfQG6Kgf-26">
+          <mxGeometry x="0.3286" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-22" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="200" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-25" value="Hệ thống thông báo thuốc không tồn tại" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nor7MJ_qh7ZYDfQG6Kgf-2">
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nor7MJ_qh7ZYDfQG6Kgf-5" target="nor7MJ_qh7ZYDfQG6Kgf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nor7MJ_qh7ZYDfQG6Kgf-10" target="nor7MJ_qh7ZYDfQG6Kgf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nor7MJ_qh7ZYDfQG6Kgf-11" target="nor7MJ_qh7ZYDfQG6Kgf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nor7MJ_qh7ZYDfQG6Kgf-6" target="nor7MJ_qh7ZYDfQG6Kgf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nor7MJ_qh7ZYDfQG6Kgf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nor7MJ_qh7ZYDfQG6Kgf-25" target="nor7MJ_qh7ZYDfQG6Kgf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
