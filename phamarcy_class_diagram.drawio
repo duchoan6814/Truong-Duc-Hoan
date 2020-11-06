@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T06:29:35.011Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="dc8SWeF9Uf6sP-iJ2vts" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T07:41:19.357Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="6S8m4kEURFvhUD1BVlhc" version="13.9.1" type="github">
   <diagram id="xbHlsaspy-tRRXHcZnnt" name="Page-1">
     <mxGraphModel dx="1240" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
         <mxCell id="Kib4g__WSlIBuVMHNUDg-30" value="+ themLoThuoc(LoThuoc): boolean&#xa;+ xoaLoThuoc(String): boolean&#xa;+ timKiemLoThuoc(String): LoThuoc&#xa;+ tinhTongTienHuyHang(): double" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="Kib4g__WSlIBuVMHNUDg-28" vertex="1">
           <mxGeometry y="70" width="260" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="WqIan-TGnd7wOQb-OVj8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" parent="1" source="WqIan-TGnd7wOQb-OVj8-2" target="uFQ6r2l2X1fp7kDDctbu-1" edge="1">
+        <mxCell id="WqIan-TGnd7wOQb-OVj8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;fontSize=15;" parent="1" source="WqIan-TGnd7wOQb-OVj8-2" target="uFQ6r2l2X1fp7kDDctbu-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WqIan-TGnd7wOQb-OVj8-6" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="WqIan-TGnd7wOQb-OVj8-5" vertex="1" connectable="0">
@@ -263,7 +263,7 @@
         </mxCell>
         <mxCell id="WqIan-TGnd7wOQb-OVj8-7" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="WqIan-TGnd7wOQb-OVj8-5" vertex="1" connectable="0">
           <mxGeometry x="0.7819" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-6.57" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WqIan-TGnd7wOQb-OVj8-1" value="TaiKhoan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" parent="1" vertex="1">
