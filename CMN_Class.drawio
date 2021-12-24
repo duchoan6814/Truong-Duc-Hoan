@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T12:09:20.079Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_BjXHAGCpamso5OMRL5N" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-24T12:11:07.434Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1hjiGlawhN6aOJmm5sse" version="15.9.6" type="github">
   <diagram id="Yj6DFzL0j5Qf95JARL4s" name="Page-1">
-    <mxGraphModel dx="2249" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,10 +393,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="e1Qm83fW47Yurqnz3UIc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e1Qm83fW47Yurqnz3UIc-7" target="6rRiFF-nvon5pC7xxNcr-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1Qm83fW47Yurqnz3UIc-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e1Qm83fW47Yurqnz3UIc-9">
+          <mxGeometry x="-0.7429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1Qm83fW47Yurqnz3UIc-11" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e1Qm83fW47Yurqnz3UIc-9">
+          <mxGeometry x="0.7429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e1Qm83fW47Yurqnz3UIc-7" value="NamHoc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="-340" width="160" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="e1Qm83fW47Yurqnz3UIc-8" value="- id: Int&#xa;- thuTu: int&#xa;- moTa: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e1Qm83fW47Yurqnz3UIc-7">
+        <mxCell id="e1Qm83fW47Yurqnz3UIc-8" value="- id: Int&#xa;- ngayBatDau: Date&#xa;- ngayKetThuc: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e1Qm83fW47Yurqnz3UIc-7">
           <mxGeometry y="26" width="160" height="112" as="geometry" />
         </mxCell>
       </root>
